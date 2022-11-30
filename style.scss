@@ -114,3 +114,47 @@ body {
     }
   }
 }
+
+.tail {
+  &-1 {
+    z-index: 3;
+    width: 14vmin;
+    height: 7.5vmin;
+    background: $red-shadow-color;
+    top: 5.2vmin;
+    left: 36.4vmin;
+    border-radius: 0 3vmin 100% 0;
+    box-shadow: 0 0.1vmin 0 1.1vmin $outline-color,
+      inset -0.7vmin 1vmin 0 0.2vmin $red-color;
+
+    &::before {
+      width: 5vmin;
+      height: 2.5vmin;
+      background: $red-shadow-color;
+      top: 7.15vmin;
+      left: 3vmin;
+      transform: rotate(-5deg);
+    }
+    &::after {
+      width: 1.2vmin;
+      height: 1.2vmin;
+      background: $outline-color;
+      top: 7.1vmin;
+      left: 7.4vmin;
+      border-radius: 50%;
+      box-shadow: 0.5vmin -0.15vmin 0 0.01vmin $outline-color,
+        0.4vmin 0.9vmin 0 0.1vmin $red-color;
+    }
+  }
+  &-2 {
+    width: 20vmin;
+    height: 12vmin;
+    background: $red-shadow-color;
+    top: 25.5vmin;
+    left: 26.5vmin;
+    transform: rotate(-14deg);
+    border-radius: 0% 100% 100% 0% / 100% 30% 70% 0%;
+    box-shadow: 0 0 0 1.1vmin $outline-color,
+      inset -0.6vmin 0.8vmin 0 0.5vmin $red-color;
+  }
+}
