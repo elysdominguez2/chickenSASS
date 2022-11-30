@@ -158,3 +158,15 @@ body {
       inset -0.6vmin 0.8vmin 0 0.5vmin $red-color;
   }
 }
+
+.body {
+  z-index: 3;
+  width: 39.4vmin;
+  height: 45.3vmin;
+  background: $body-color;
+  top: 1.5vmin;
+  left: -10.7vmin;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  box-shadow: 0 0 0 1vmin $outline-color,
+    inset -3.4vmin -2.3vmin 0 0.8vmin $body-shadow-color;
+}
