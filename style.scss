@@ -170,3 +170,27 @@ body {
   box-shadow: 0 0 0 1vmin $outline-color,
     inset -3.4vmin -2.3vmin 0 0.8vmin $body-shadow-color;
 }
+
+.wing {
+  z-index: 3;
+  width: 15.4vmin;
+  height: 11.6vmin;
+  background: $body-color;
+  top: 7.8vmin;
+  left: 7.5vmin;
+  transform: rotate(6deg) skewX(12deg) skewY(-5deg);
+  border-radius: 50% 50% 30% 70% / 0% 0% 100% 100%;
+  border: 1vmin solid $outline-color;
+  border-top: 0;
+  box-shadow: 1.3vmin 1.7vmin 0 1vmin $body-shadow-color;
+
+  &::before {
+    width: 1vmin;
+    height: 1vmin;
+    background: $outline-color;
+    top: -0.5vmin;
+    left: -1vmin;
+    border-radius: 50%;
+    box-shadow: 14.4vmin 0 0 0 $outline-color;
+  }
+}
