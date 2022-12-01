@@ -186,4 +186,26 @@ body *::after {
   top: -20.3vmin;
   left: -44.4vmin;
   border-radius: 50%;
+}
+
+.beak {
+  z-index: 5;
+  width: 7.2vmin;
+  height: 4.2vmin;
+  background: #ffd916;
+  top: -8.9vmin;
+  left: -42.4vmin;
+  border-radius: 4.2vmin 4.2vmin 0 0;
+  box-shadow: 0 0 0 1vmin #000, inset 1.2vmin 0.5vmin 0 -0.2vmin #fff;
+}
+
+.beak-bottom {
+  z-index: 4;
+  width: 4.6vmin;
+  height: 4.6vmin;
+  background: #f1a812;
+  top: -4.3vmin;
+  left: -40.3vmin;
+  border-radius: 50%;
+  box-shadow: -0.3vmin 0 0 1vmin #000, 0.1vmin 0.1vmin 0 1vmin #000;
 }/*# sourceMappingURL=style.css.map */
