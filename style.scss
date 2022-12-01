@@ -272,3 +272,26 @@ body {
     transform: skewX(-5deg) rotate(2deg);
   }
 }
+
+.foot-right {
+  z-index: 3;
+  width: 5.5vmin;
+  height: 9.8vmin;
+  background: $yellow-color;
+  top: 46vmin;
+  left: -4.4vmmin;
+  border-radius: 3vmin;
+  box-shadow: 0 0 0 1.1vmin $outline-color,
+    inset 0.9vmin 0 0 0.01vmin $body-color;
+}
+
+.foot-left {
+  z-index: 1;
+  width: 5.5vmin;
+  height: 9.8vmin;
+  background: $yellow-shadow-color;
+  top: 43.6vmin;
+  left: -23.8vmin;
+  border-radius: 3vmin;
+  box-shadow: 0 0 0 1.1vmin $outline-color;
+}
