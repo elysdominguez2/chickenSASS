@@ -304,3 +304,54 @@ body {
   left: -1vmin;
   border-radius: 50%;
 }
+
+.egg {
+  z-index: 1;
+  width: 8vmin;
+  height: 9.8vmin;
+  background-color: $body-color;
+  top: 43.6vmin;
+  left: -80vmin;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  box-shadow: 0 0 0 1vmin $outline-color,
+    inset -1vmin -0.3vmin 0 0.2vmin $body-shadow-color;
+  transform: rotate(10deg);
+}
+.break-1 {
+  z-index: 2;
+  width: 4vmin;
+  height: 1vmin;
+  background: $outline-color;
+  top: 43.6vmin;
+  left: -85vmin;
+  transform: rotate(35deg);
+}
+
+.break-2 {
+  z-index: 2;
+  width: 3.6vmin;
+  height: 1vmin;
+  background: $outline-color;
+  top: 44vmin;
+  left: -79.5vmin;
+  transform: rotate(-35deg);
+}
+
+.break-3 {
+  z-index: 2;
+  width: 3.5vmin;
+  height: 1vmin;
+  background: $outline-color;
+  top: 44vmin;
+  left: -74.5vmin;
+  transform: rotate(30deg);
+}
+
+.egg-shadow {
+  width: 10vmin;
+  height: 2vmin;
+  background: $chicken-shadow-color;
+  top: 55vmin;
+  left: -78vmin;
+  border-radius: 50%;
+}
