@@ -238,3 +238,37 @@ body {
   box-shadow: -0.3vmin 0 0 1vmin $outline-color,
     0.1vmin 0.1vmin 0 1vmin $outline-color;
 }
+
+.wattle {
+  z-index: 3;
+  width: 0;
+  height: 0;
+  border-left: 4.2vmin solid transparent;
+  border-right: 2.4vmin solid transparent;
+  border-bottom: 5.5vmin solid $outline-color;
+  left: -37vmin;
+  transform: rotate(20deg) skewX(-3deg);
+
+  &::before {
+    width: 4.8vmin;
+    height: 4.8vmin;
+    background: $red-shadow-color;
+    top: 4.6vmin;
+    left: -3.3vmin;
+    border-radius: 50%;
+    box-shadow: 0.1vmin 0vmin 0 1.1vmin $outline-color,
+      -0.2vmin -0.1vmin 0 1vmin $outline-color,
+      inset 0.5vmin -0.55vmin 0 0.1vmin $red-color;
+  }
+
+  &::after {
+    width: 0;
+    height: 0;
+    border-left: 2vmin solid transparent;
+    border-right: 2.4vmin solid transparent;
+    border-bottom: 4vmin solid $red-shadow-color;
+    top: 2vmin;
+    left: -2.8vmin;
+    transform: skewX(-5deg) rotate(2deg);
+  }
+}

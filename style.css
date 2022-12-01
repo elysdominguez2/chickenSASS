@@ -208,4 +208,34 @@ body *::after {
   left: -40.3vmin;
   border-radius: 50%;
   box-shadow: -0.3vmin 0 0 1vmin #000, 0.1vmin 0.1vmin 0 1vmin #000;
+}
+
+.wattle {
+  z-index: 3;
+  width: 0;
+  height: 0;
+  border-left: 4.2vmin solid transparent;
+  border-right: 2.4vmin solid transparent;
+  border-bottom: 5.5vmin solid #000;
+  left: -37vmin;
+  transform: rotate(20deg) skewX(-3deg);
+}
+.wattle::before {
+  width: 4.8vmin;
+  height: 4.8vmin;
+  background: #a10300;
+  top: 4.6vmin;
+  left: -3.3vmin;
+  border-radius: 50%;
+  box-shadow: 0.1vmin 0vmin 0 1.1vmin #000, -0.2vmin -0.1vmin 0 1vmin #000, inset 0.5vmin -0.55vmin 0 0.1vmin #d10f05;
+}
+.wattle::after {
+  width: 0;
+  height: 0;
+  border-left: 2vmin solid transparent;
+  border-right: 2.4vmin solid transparent;
+  border-bottom: 4vmin solid #a10300;
+  top: 2vmin;
+  left: -2.8vmin;
+  transform: skewX(-5deg) rotate(2deg);
 }/*# sourceMappingURL=style.css.map */
