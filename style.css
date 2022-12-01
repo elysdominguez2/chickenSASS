@@ -166,4 +166,24 @@ body *::after {
   left: -1vmin;
   border-radius: 50%;
   box-shadow: 14.4vmin 0 0 0 #000;
+}
+
+.eye-right {
+  z-index: 3;
+  width: 4.5vmin;
+  height: 4.5vmin;
+  background: #000;
+  top: -17.8vmin;
+  left: -23.2vmin;
+  border-radius: 50%;
+}
+
+.eye-left {
+  z-index: 1;
+  width: 4vmin;
+  height: 4vmin;
+  background: #000;
+  top: -20.3vmin;
+  left: -44.4vmin;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
