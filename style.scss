@@ -295,3 +295,12 @@ body {
   border-radius: 3vmin;
   box-shadow: 0 0 0 1.1vmin $outline-color;
 }
+
+.shadow {
+  width: 42vmin;
+  height: 6vmin;
+  background: $chicken-shadow-color;
+  top: 54vmin;
+  left: -1vmin;
+  border-radius: 50%;
+}

@@ -260,4 +260,13 @@ body *::after {
   left: -23.8vmin;
   border-radius: 3vmin;
   box-shadow: 0 0 0 1.1vmin #000;
+}
+
+.shadow {
+  width: 42vmin;
+  height: 6vmin;
+  background: #ca830b;
+  top: 54vmin;
+  left: -1vmin;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
